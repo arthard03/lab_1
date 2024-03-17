@@ -8,7 +8,7 @@ namespace lab1
         {
             Console.Write("mod1\n");
             Console.Write("mod2.\n");
-            Console.Write("mod3\n");
+            Console.Write("mod3.\n");
 
         }
     }
