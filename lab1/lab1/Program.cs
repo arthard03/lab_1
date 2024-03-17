@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace lab1
 {
@@ -16,7 +17,8 @@ namespace lab1
             Console.Write("mod3.\n");
             
             program.sumAverageElements(arr);
-
+            int m = arr.Max();
+            Console.Write("The max value from array: "+m);
         }
 
         public void sumAverageElements(int[] arr)
